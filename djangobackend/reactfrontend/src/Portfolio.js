@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Portfolio.css'; // Import CSS styles for the Portfolio component
 import video from './video/v4.mp4'; // Update the path to the video file
 
+
 const Portfolio = () => {
     const [yearsOnMarket, setYearsOnMarket] = useState(0);
     const [expertsOnBoard, setExpertsOnBoard] = useState(0);
@@ -94,6 +95,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+         
         </div>
     );
 }

@@ -381,3 +381,5 @@ def get_learn_more_data(request):
         return JsonResponse(data)
     except ConnectionFailure as e:
         return JsonResponse({'error': str(e)}, status=500)
+
+

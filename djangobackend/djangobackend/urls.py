@@ -18,6 +18,8 @@ urlpatterns = [
     path('api/get_blogs_data/', views.get_blogs_data, name='get_blogs_data'),
     path('api/get_reward_data/', views.get_reward_data, name='get_reward_data'),
      path('api/learnmore/', views.get_learn_more_data, name='get_learn_more_data'),
+     
+     
     
     
    
