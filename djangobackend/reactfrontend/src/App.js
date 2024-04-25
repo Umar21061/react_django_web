@@ -75,7 +75,18 @@ function App() {
 function HomePage({ textData }) {
   return (
     <>
-      <RecentCase/>
+      <Bot />
+      <Hero/>
+      <Portfolio/>
+      <About/>
+      <PortfolioProject/>
+      <Partner/>
+      <Crew/>
+     <Banner/>
+      <Value/>
+      <Reward/>
+      <Cons/>
+      <Footer/>
 
       
 
